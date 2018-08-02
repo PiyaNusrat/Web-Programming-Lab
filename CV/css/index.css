@@ -1,0 +1,58 @@
+				<div class="row text-dark font-weight-bold" >
+					<div class="col-sm-12">
+						<h2 class="sign_out">
+							<a href="sign_out.php">
+								<i class="fas fa-globe" alt="Sign_Out"></i>
+							</a>
+						</h2>
+						<p><i class="far fa-copyright">&nbsp;all Credit Goes to Bootstrap 4</i></p>
+					</div>
+				</div>
+		.container{
+			background-image:url('image/a5.jpg');
+		}
+		.main-body h3{
+			background-color:gray;
+		}
+		a{
+			color:black; 
+		}
+		a:hover{
+			color:white; 
+		}
+		.sign_out a{
+			color:black; 
+		}
+		.sign_out a:hover{
+			color:#17A2B8;
+		}
+		.add1 a{
+			text-decoration:none;
+			color:black;
+		}
+		.add1 a:hover{
+			text-decoration:none;
+			color:#17A2B8;
+		}
+		.img-thumbnail{
+			position:relative;
+			
+		}
+		.img-thumbnail:hover{
+			opacity:0.8;
+		}
+		@media (min-width: 100px) {
+		.img-thumbnail {
+			margin:15px 178px 0px -5px;
+			}
+		}
+		@media (min-width: 402px) {
+		.img-thumbnail {
+			margin:-180px 0px 0px 0px;
+			}
+		}
+		@media (min-width: 767px) {
+			.img-thumbnail {
+				margin:15px 0px;
+				}
+			}
